@@ -1,0 +1,29 @@
+{
+  "name": "jsontest",
+  "version": "1.0.0",
+  "description": "A jsontest.com like service",
+  "main": "index.js",
+  "scripts": {
+    "dev": "micro-dev",
+    "start": "micro --port 80",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyperdev-io/jsontest.git"
+  },
+  "keywords": [],
+  "author": "Gantcho Kojuharov <gantcho@greyarch.net> (http://greyarch.net)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hyperdev-io/jsontest/issues"
+  },
+  "homepage": "https://github.com/hyperdev-io/jsontest#readme",
+  "dependencies": {
+    "micro": "^9.3.2",
+    "request-ip": "^2.0.2"
+  },
+  "devDependencies": {
+    "micro-dev": "^3.0.0"
+  }
+}

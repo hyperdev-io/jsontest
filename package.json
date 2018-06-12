@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "micro-dev",
-    "start": "micro --port 80",
+    "start": "micro -l tcp://0.0.0.0:80",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
